@@ -3,7 +3,7 @@ from typing import Dict
 from fastapi import APIRouter
 from fastapi.exceptions import HTTPException
 
-from server import Session, SessionResponse
+from server.session import Session, SessionResponse
 from .models import NewPlayer
 
 session_router = APIRouter()
